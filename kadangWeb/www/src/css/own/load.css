@@ -103,6 +103,10 @@
 	padding-left: 35px;
 	background: url(../../img/home/login.png) no-repeat 10px -201px;
 }
+.user-load form .login{
+	margin-top: 10px;
+	color: #d00;
+}
 
 .user-load form .paw{
 	margin-top: 20px;

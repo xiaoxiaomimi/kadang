@@ -21,10 +21,10 @@
 					<div class="l left1">
 						<p class="l p1">Hi，欢迎来到卡当网</p>
 						<p class="l p2">
-							<a href="##">登录</a>
+							<a href="#">登录</a>
 						</p>
 						<p class="l p3">
-							<a href="##">注册</a>
+							<a href="#">注册</a>
 						</p>
 					</div>
 					<div class="r right1">
@@ -796,7 +796,7 @@
 										<a href="###" class="l">发饰/胸针</a>
 										<a href="###" class="l">耳钉耳环</a>
 										<a href="###" class="l">男士饰品</a>
-										<a href="###" class="l">高档珠宝</a>
+										<a href="index.html" class="l">高档珠宝</a>
 									</dd>
 								</dl>
 							</div>
@@ -933,12 +933,12 @@
 						<form>
 							<p class="user-load-title">用户登录</p>
 							<br />
-							<input type="text" class="user-name" placeholder="邮箱/用户名"/>
+							<input type="text" class="user-name" placeholder="邮箱"/>
 							<br />
-							<br />
+							<p class="login login1"></p>
 							<input type="password" class="paw" placeholder="密码"/>
 							<br />
-							<br />
+							<p class="login login2"></p>
 							<label><input type="checkbox" class="odd-number" /><p class="next-load">下次自动登录</p></label>
 							<br />
 							<input type="submit" class="submit btn-red" value="立即登录"/>
@@ -990,15 +990,13 @@
 							<form>
 								<p class="user-register-title">用户注册 </p>
 								<br />
-								<input type="text" class="user-name" placeholder="邮箱/用户名"/>
-								<br />
-								<br />
+								<input type="text" class="user-name" placeholder="邮箱"/>
+								<p class="tips tips1"></p>
 								<input type="password" class="paw" placeholder="密码"/>
-								<br />
-								<br />
+								<p class="tips tips2"></p>
 								<a class="next-register">《卡当注册协议》</a>
 								<br />
-								<input type="submit" class="submit btn-red" value="同意协议并注册"/>
+								<input type="button" class="submit btn-red" value="同意协议并注册"/>
 								<p class="judge">还没账号？ <a href="##">注册</a><a href="##" class="r forget-pwd">忘记密码？</a></p>
 							</form>
 						</div>
@@ -1010,9 +1008,12 @@
 
 
 		<script src="js/lib/jquery-1.11.3.js"></script>
+		<script src="js/lib/jquery.cookie.js"></script>
 		<script type="text/javascript" src="js/lib/swiper.min.js"></script>
 		<script src="js/own/public.js"></script>
 		<script src="js/own/index.js"></script>
+		<script type="text/javascript" src="js/own/useraction.js" ></script>
+		<script type="text/javascript" src="js/own/useractionload.js" ></script>
 	</body>
 
 </html>

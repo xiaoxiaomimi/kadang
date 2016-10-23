@@ -1,0 +1,442 @@
+body,h1,h2,h3,h4,h5,h6,p,img,a,input,ul,ol,dl,li,dt,dd{
+	padding: 0;
+	margin: 0;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	display: block;
+	border: 0;
+}
+body{
+	font-size:12px;
+	color: #999999;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #999;
+}
+a:hover{
+	text-decoration: none;
+	color: #ff4f57;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.w{
+	width:990px;
+	margin:0 auto;
+}
+
+
+#top{
+	width:100%;
+	height: 39px;
+	border-bottom: 1px solid #dedede;
+	background: #f8f8f8;
+}
+.top-xin{
+	height: 39px;
+	line-height: 39px;
+	position: relative;
+	color: #999;
+	background-color: #fff;
+	border: solid 1px #C4D5E0;
+	border-radius: 4px;
+}
+.user-enter{
+	width:550px;
+	height: 38px;
+	overflow: hidden;
+}
+.user-enter .hello{
+	width:120px;
+	height: 38px;
+	padding: 0px 5px 0px 20px;
+}
+.user-enter .hello span{
+	
+	padding: 0 5px;
+}
+.user-enter .hello .font{
+	font-weight: bold;
+}
+
+.user-enter .quit{
+	width:28px;
+	height: 38px;
+	padding: 0 4px;
+}
+
+.brief-menu{
+	width:280px;
+	height: 38px;
+}
+.brief-menu ul li{
+	width:72px;
+	height: 38px;
+}
+.brief-menu ul li.mykd a{
+	width:48px;
+	height: 38px;
+	padding: 1 17px 0 5px;
+}
+.mykadang{
+	display: block;
+	width: 8px;
+	height: 4px;
+	background:url(../../img/home/load1.jpg) no-repeat 0px -1px;
+	margin-top: 20px;
+}
+.brief-menu ul li.car{
+	width:129px;
+	height: 38px;
+	position: relative;
+}
+.brief-menu ul li.car a{
+	width:93px;
+	height: 38px;
+	padding: 1px 17px 0 25px;
+	display: block;
+}
+.brief-menu ul li.car a s{
+	background: url(../../img/home/load2.png) no-repeat 0px 0px;
+	width:19px;
+	height: 19px;
+	position: absolute;
+	top: 9px;
+	left: 2px;
+}
+.brief-menu ul li.car a strong{
+	color: #F60;
+	padding: 0 3px;
+}
+.brief-menu ul li.car a i{
+	background: url(../../img/home/load1.jpg) no-repeat 0px 0px;
+}
+.brief-menu ul li.favorable{
+	width:72px;
+	height:39px ;
+}
+.brief-menu ul li.favorable a{
+	width:48px;
+	height: 38px;
+	padding: 0 17px 0 5px;
+	display: block;
+}
+.brief-menu ul li.favorable a i{
+	width: 8px;
+	height:4px ;
+	display: inline-block;
+	/*background: url(../../img/home/load1.jpg) no-repeat 5px 0px;*/
+}
+
+#header{
+	width:100%;
+	height: 90px;
+	padding-top: 25px;
+	background: url(../../img/home/buyer_header.png) no-repeat center top;
+	line-height: 20px;
+}
+#header h1{
+	width: 200px;
+}
+#header .nav{
+	width:770px;
+	height: 38px;
+	border-radius: 5px;
+	background-color:rgba(255,80,10,0.8) !important;
+}
+#header .nav li.first{
+	width:98px;
+	height:38px ;
+	background: #DD5A22;
+	/*padding-left: 1px;*/
+	border-radius: 5px 0 0 5px;
+}
+#header .nav li.first a{
+	color: #fff;
+	line-height: 38px;
+	text-align: center;
+	padding: 9px 24px;
+	position: relative;
+	z-index: 1;
+}
+#header .nav li{
+	width:98px;
+	height:38px ;
+}
+#header .nav li a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 38px;
+	text-align: center;
+	padding: 9px 24px;
+	position: relative;
+	z-index: 1;
+	/*border-left: 1px solid #D65700;*/
+	/*border-rigth:1px solid #FF8428;*/
+}
+#header .nav li.last{
+	width:296px;
+	height: 38px;
+}
+#header .nav li.last .search-box{
+	width:226px;
+	height: 29px;
+	padding: 6px 16px 6px 39px;
+	border-left:1px solid #FF8428;
+}
+.search{
+	width:224px;
+	height:28px ;
+	border: 1px solid #ccc;
+}
+.textinput{
+	width: 200px;
+	height: 16px;
+	padding: 4px 2px 6px 4px;
+	line-height: 16px;
+	background: #FFFFDF;
+	border:1px solid #ccc ;
+	border-radius: 3px;
+}
+.search-button{
+	float: left;
+
+	width:16px;
+	height: 28px;
+	background: url(../../img/home/ncus_public.png) no-repeat 0px -375px;
+	line-height: 16px;
+	cursor: pointer;
+	/*background: #fff;*/
+	opacity: 0.5;
+
+}
+#contain{
+	width:100%;
+	height:649px ;
+	margin-top: -25px;
+	
+}
+#contain .con-xin{
+	width:998px;
+	height: 647px;
+	border: 1px solid #D5E5F5;
+	border-radius: 5px;
+	background: url(../../img/home/mubg.png) repeat-y center top;
+}
+.side-left{
+	padding-top: 6px;
+	width:153px;
+	height: 641px;
+}
+.side-left .n-user{
+	width:140px;
+	height: 130px;
+	margin: 0 auto;
+}
+.side-left .n-user .user-name{
+	width:102px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+.side-left .n-user .user-photo{
+	width:100px;
+	height: 100px;
+	margin: 0 auto;
+	/*border: 1px solid #C9E0E7;*/
+	/*border-radius: 5px;*/
+}
+
+.user-photo img{
+	border-radius:5px ;
+	width: 100px;
+	height: 100px;
+}
+.business-intro{
+	width:120px;
+	height: 116px;
+	margin: 10px auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #D5E5F5;
+}
+.business-intro h3{
+	line-height: 32px;
+}
+.business-intro ul{
+	width:120px;
+	height: 84px;
+}
+.business-intro ul li{
+	width:120px;
+	height: 20px;
+	padding: 4px 0;
+}
+.business-intro ul li a{
+	background: url(../../img/home/ncus_public.png) no-repeat 0 -330px;
+	float: left;
+	padding-left: 10px;
+	/*color:#455E65;*/
+}
+.business-intro ul li i{
+	width:7px;
+	height: 16px;
+	padding: 0 8px;
+	margin: 2px;
+	color: #fff;
+	line-height: 16px;
+	background:#C9E0E7 ;
+	border-radius:4px ;
+}
+.business-handle{
+	width:153px;
+	height: 92px;
+	margin-top:10px ;
+	margin-bottom: 20px;
+}
+.business-handle h3{
+	margin-left:16px ;
+}
+.business-handle .my-order{
+	width:129px;
+	height: 20px;
+	padding: 6px 12px;
+	color: #455E65;
+}
+.my-order span{
+	display: block;
+	width:20px;
+	height: 20px;
+	margin-right: 8px;
+	background: url(../../img/home/ncus_public.png) no-repeat -40px -380px;
+}
+.my-order a{
+	line-height: 20px;
+	
+}
+.business-handle .my-collect{
+	width:129px;
+	height: 20px;
+	padding: 6px 0;
+	margin: 0 12px;
+}
+.my-collect span{
+	width:20px;
+	height: 20px;
+	display: block;
+	background: url(../../img/home/ncus_public.png) no-repeat -80px -380px;
+	margin-right: 8px;
+}
+.my-collect i{
+	margin-left: 6px;
+	border-width:4px ;
+	border-color:#80B8D2 transparent transparent transparent ;
+	border-style: solid dashed dashed dashed;
+	margin-top: 7px;
+	/*width:5px;
+	height: 3px;*/
+	/*background: url(../../img/home/top-arrow.jpg)  no-repeat  10px 5px;*/
+}
+.coupons{
+	width:129px;
+	height: 20px;
+	padding: 6px 12px;
+}
+.coupons .my-coupons{
+	margin-left: 27px;
+}
+
+
+
+.evaluation{
+	width:129px;
+	height: 20px;
+	padding: 6px 12px;
+}
+.evaluation span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	background: url(../../img/home/ncus_public.png) no-repeat -140px -380px;
+}
+.my-evaluation{
+	line-height: 20px;
+	
+}
+.complaint{
+	width:129px;
+	height: 20px;
+	padding: 6px 12px;
+}
+.complaint span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	background: url(../../img/home/ncus_public.png) no-repeat -160px -380px;
+}
+.my-complaint{
+	line-height: 20px;
+}
+.pure{
+	margin-top: 120px;
+	width: 133px;
+	height: 132px;
+	padding: 10px 10px;
+}
+.pure h3{
+	color: #000000;
+	line-height: 32px;
+	width:133px;
+	height: 32px;
+}
+.pure p{
+	text-indent: 2em;
+	width: 133px;
+	height: 100px;
+}
+.pure p span{
+	text-indent: 2em;
+}
+#footer{
+	width:100%;
+	height: 127px;
+}
+#footer .footer-xin{
+	height: 120px;
+	margin: 0 126px;
+	padding: 15px 0;
+	text-align: center;
+	color: #aaa;
+	line-height: 18px;
+}
+.footer-xin .bottom-link{
+	height: 45px;
+	padding-top:30px;
+	border-top:1px solid #e8e8e8;
+}
+.footer-xin .bottom-link p{
+	height: 18px;
+	padding-bottom: 15px;
+	color: #606060;
+	word-spacing: 5px;
+	/*white-space: ;*/
+}
+.bottom-link p a{
+	padding-right: 20px;
+}
+.bott-last{
+	height: 18px;
+	padding-bottom: 20px;
+}
+
+
+

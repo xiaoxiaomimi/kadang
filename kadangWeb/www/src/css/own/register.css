@@ -104,8 +104,13 @@
 	background: url(../../img/home/login.png) no-repeat 10px -201px;
 }
 
+p.tips {
+	margin-top: 10px;
+	color: #d00;
+}
+
 .user-register form .paw{
-	margin-top: 20px;
+	margin-top: 10px;
 	height:37px ;
 	border-radius:2px ;
 	width: 278px;
@@ -120,6 +125,7 @@
 	display: inline-block;
 }
 .user-register form .next-register{
+	margin-top: 10px;
 	width:100px;
 	height: 14px;
 	display: inline-block;
