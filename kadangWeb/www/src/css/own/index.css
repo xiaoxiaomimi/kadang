@@ -1,0 +1,841 @@
+#header{
+	width:100%;
+	height: 34px;
+	border-bottom: 1px solid #999999;
+}
+#header .header-xin{
+	height: 34px;
+}
+#header .header-xin .menu-list{
+	width:655px;
+	margin-left:150px ;
+}
+#header .header-xin .menu-list li{
+	line-height: 34px;
+	color: #EB744F;
+}
+#header .header-xin .menu-list li a{
+	position: relative;
+	text-align: center;
+	padding: 0 18px;
+	margin: 0 8px;
+	font-size: 15px;
+	/*font-weight: bold;*/
+	color: #000;
+	height:34px ;
+
+}
+#header .header-xin .menu-list li .navHot{
+	position: absolute;
+	right: 0;
+	top:-6px;
+	width:13px;
+	height: 13px;
+}
+#header .header-xin .menu-list li a:hover{
+	/*text-decoration: underline;*/
+	color: #FF4F57;
+}
+
+
+
+
+
+
+
+#banner {
+	width: 100%;
+	height: 460px;
+}
+
+#banner .banner-xin {
+	margin-top: 25px;
+}
+
+#banner .banner-xin .ban-nav-left {
+	width: 150px;
+	height: 460px;
+	margin-right: 20px;
+}
+
+
+/*热门标签*/
+#banner .banner-xin .ban-nav-left li.nav-hot {
+	width: 150px;
+	height: 110px;
+	border-bottom: 1px solid #ededed;
+}
+
+#banner .banner-xin .ban-nav-left li.nav-hot p {
+	height: 24px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#banner .banner-xin .ban-nav-left li.nav-hot ul li {
+	width: 48px;
+	height: 21px;
+	margin-right: 20px;
+	white-space: nowrap;
+}
+
+#banner .banner-xin .ban-nav-left li.nav-hot ul li a {
+	color: #666;
+}
+
+#banner .banner-xin .ban-nav-left li.nav-hot ul li a:hover {
+	color: #FF4F57;
+}
+
+
+/*全部礼物*/
+
+ul.all-gifts-cont > li {
+	padding-left: 35px;
+}
+
+#banner .banner-xin .ban-nav-left .all-gifts {
+	width: 150px;
+	height: 335px;
+}
+
+#banner .banner-xin .ban-nav-left .all-gifts .gift-title {
+	height: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #000000;
+}
+/*时尚饰品*/
+ul.all-gifts-cont li.giftone{
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -4px;
+}
+
+ul.all-gifts-cont li.giftone:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -4px;
+}
+
+ul.all-gifts-cont li:hover > a {
+	color: #fff !important;
+}
+
+ul.gift-cont li:hover > a {
+	background-color: #ACACAC;
+}
+
+#banner .banner-xin .ban-nav-left .all-gifts li > a {
+	padding-left: 5px;
+	line-height: 31px;
+	font-size: 14px;
+	color: #666;
+}
+
+#banner .banner-xin .ban-nav-left .all-gifts li div a {
+	line-height: 25px;
+}
+
+
+.gift-box .gift-cont{
+	width:164px;
+	height:460px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top:185px;
+	left:181px;
+	z-index: 666;
+	background: #fff;
+	opacity: 0.95;
+	display: none;	
+	/*display: block !important;*/
+}
+/*特殊的第一个*/
+.gift-box .gift-cont li.necklace{
+	margin-top:20px;
+}
+
+/*共同的特点*/
+.gift-box .gift-cont li.cont{
+	margin:0  10px;
+	height: 40px;
+	position: relative;
+	
+	
+}
+
+.gift-box .gift-cont li.cont a.necklace-first{
+	margin-top:10px;
+}
+.gift-box .gift-cont li.cont a{
+	display: block;
+	width:110px;
+	height: 25px;
+	text-align:left;
+	line-height: 15px;
+	position: absolute;
+	left: 15px;
+}
+.gift-box-li-bg{
+	background: #888888;
+	color:#FFFFFF;
+}
+
+
+
+/*钱包配饰*/
+ul.all-gifts-cont li.gifttwo {
+	background: url(../../img/home/menuImg.png) no-repeat 0 -319px;
+	height: 34px;
+}
+
+ul.all-gifts-cont li.gifttwo:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -319px;
+}
+
+
+/*创意摆件*/
+ul.all-gifts-cont li.giftthree {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -193px;
+}
+
+ul.all-gifts-cont li.giftthree:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -193px;
+}
+
+
+/*布艺家纺*/
+ul.all-gifts-cont li.giftfour {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -225px;
+}
+
+ul.all-gifts-cont li.giftfour:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -225px;
+}
+
+
+/*花巧克力*/
+ul.all-gifts-cont li.giftfive {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -289px;
+}
+
+ul.all-gifts-cont li.giftfive:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -289px;
+}
+
+
+
+/*家具日用*/
+ul.all-gifts-cont li.giftsix {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -158px;
+}
+
+ul.all-gifts-cont li.giftsix:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -158px;
+}
+
+/*数码办公*/
+ul.all-gifts-cont li.giftseven {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -385px;
+}
+
+ul.all-gifts-cont li.giftseven:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -385px;
+}
+
+/*照片打印*/
+ul.all-gifts-cont li.gifteight {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -319px;
+}
+
+ul.all-gifts-cont li.gifteight:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -319px;
+}
+
+/*服装内衣*/
+ul.all-gifts-cont li.giftnine {
+	height: 34px;
+	background: url(../../img/home/menuImg.png) no-repeat 0 -128px;
+}
+
+ul.all-gifts-cont li.giftnine:hover {
+	background: #e44715 url(../../img/home/menuHoverImg.png) no-repeat 0 -128px;
+}
+
+
+#banner#banner .gift-bg{
+	width:30px;
+	height:24px ;
+	display: inline-block;
+}
+
+
+
+/*轮播图*/
+#banner .banner-xin .ban-nav-center{
+	width: 820px;
+	height: 460px;
+}
+#banner .banner-xin .ban-nav-center .wrap {
+	width: 820px;
+	height: 460px;
+/*	margin: 50px auto;*/
+	position: relative;
+	/*border: 5px solid #aaa;*/
+}
+#banner .banner-xin .ban-nav-center .wrap img {
+	position: absolute;
+	width: 820px;
+	height: 460px;
+}
+#banner .banner-xin .ban-nav-center .wrap .list{
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	font-size:0;
+	text-align: center;		
+}
+#banner .banner-xin .ban-nav-center .wrap .list .lunbo-li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	font-size: 16px;
+	background-color: #ccc;
+	line-height: 10px;
+	text-align: center;
+	margin: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+#banner#banner .active{
+	background-color: pink;
+}
+/*swiper js*/
+/*.swiper-container {
+	width: 820px;
+	height: 460px;
+}
+
+.swiper-pagination-bullet {
+	text-align: center;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #fff;
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	background-color: #3e3e3e;
+}*/
+
+/*轮播图右边的部分*/
+#banner .banner-xin .ban-nav-right {
+	width: 190px;
+	height: 460px;
+}
+
+#banner .banner-xin .ban-nav-right .ban-nav-right-img1 {
+	margin-bottom: 20px;
+}
+
+#banner .banner-xin .ban-nav-right .ban-nav-right-img1 img {
+	width: 190px;
+	height: 220px;
+}
+
+#stylish .stylish-xin {
+	height: 881px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#stylish .stylish-xin .stylish-head {
+	height: 30px;
+	padding-bottom: 15px;
+}
+
+#stylish .stylish-xin .stylish-head h2 {
+	width: 800px;
+	line-height: 30px;
+	color: #000000;
+}
+
+#stylish .stylish-head h2 span {
+	font-size: 11px;
+	padding-left: 20px;
+	margin-top: 10px;
+	font-weight: 100;
+	color: #ccc;
+}
+
+#stylish .stylish-cont {
+	height: 716px;
+}
+
+#stylish .stylish-cont li {
+	width: 285px;
+	height: 338px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+#stylish .stylish-cont li .big {
+	width: 283px;
+	height: 280px;
+}
+
+#stylish .stylish-cont li .reason {
+	height: 20px;
+	margin-top: 15px;
+}
+
+#stylish .stylish-cont li p {
+	height: 40px;
+	margin-top: 10px;
+}
+
+#stylish .stylish-bott {
+	margin-top: 20px;
+}
+#stylish .stylish-bott img {
+	width:1200px;
+	height:120px;
+}
+
+/*背景色为灰色的部分*/
+#contain {
+	height: ;
+	background: #f5f5f5;
+}
+#contain  .fixedBox{
+	margin-top:40px;
+	height: 46px;
+}
+#contain  .fixedBox .fixedDiv{
+	height: 46px;
+	position:static ;
+	top:0;
+	z-index: 999;
+	background-color: #FFFFFF;
+	overflow:hidden ;
+}
+#contain  .fixedBox .fixedDiv .fixed-container li{
+	width:128px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	float: left;
+	margin-right: 2px;
+	font-weight: bold;
+	font-size: 15px;
+}
+#contain .con-xin {
+	padding-top: 20px;
+	height: px;
+}
+/*生日礼物*/
+#contain .con-xin .birthday-gift{
+	height: 1245px;
+	position: relative;
+}
+#contain .con-xin .birthday-gift h3{
+	margin: 15px 0 25px 0;
+	font-size: 28px;
+	color: #000;
+}
+#contain .con-xin .birthday-gift .big-img{
+	width:586px;
+	height: 369px;
+	/*margin-right: 25px;*/
+	margin-bottom: 26px;
+	
+	
+}
+
+#contain .con-xin .birthday-gift ul li.sm{
+	width:280px;
+	height: 369px;
+	margin-left:26px ;
+	margin-bottom: 26px;
+	background: white;
+	box-shadow: 1px 1px #d0d0d0;
+}
+#contain .con-xin .birthday-gift ul li.three,
+#contain .con-xin .birthday-gift ul li.seven
+{
+	margin-left: 0;
+}
+
+#contain .con-xin .birthday-gift .sm-img1{
+	width:280px;
+	height: 300px;
+}
+
+#contain .con-xin .birthday-gift .price-and-number{
+	padding-top:14px;
+	margin: 0 17px;
+	width:246px;
+	height: 27px;
+} 
+#contain .con-xin .birthday-gift .price-and-number .price{
+	font-size: 18px;
+}
+#contain .con-xin .birthday-gift .price-and-number .price em{
+	font-weight: 100;
+}
+#contain .con-xin .birthday-gift .price-and-number .num{
+	margin-top: 5px;
+}
+
+#contain .con-xin .birthday-gift .p-cont{
+	width:246px;
+	height:22px ;
+	margin: 2px 17px 0px 17px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+/*本周新品*/
+#contain .con-xin .new-things{
+	height: 1245px;
+	position: relative;
+}
+#contain .con-xin .new-things h3{
+	margin: 15px 0 25px 0;
+	font-size: 28px;
+	color: #000;
+}
+#contain .con-xin .new-things .big-img{
+	width:586px;
+	height: 369px;
+	/*margin-right: 25px;*/
+	margin-bottom: 26px;
+}
+
+#contain .con-xin .new-things ul li.sm{
+	width:280px;
+	height: 369px;
+	margin-left:26px ;
+	margin-bottom: 26px;
+	background: white;
+}
+#contain .con-xin .new-things ul li.three,
+#contain .con-xin .new-things ul li.seven
+{
+	margin-left: 0;
+}
+
+#contain .con-xin .new-things .sm-img1{
+	width:280px;
+	height: 300px;
+}
+
+#contain .con-xin .new-things .price-and-number{
+	padding-top:14px;
+	margin: 0 17px;
+	width:246px;
+	height: 27px;
+} 
+#contain .con-xin .new-things .price-and-number .price{
+	font-size: 18px;
+}
+#contain .con-xin .new-things .price-and-number .price em{
+	font-weight: 100;
+}
+#contain .con-xin .new-things .price-and-number .num{
+	margin-top: 5px;
+}
+#contain .con-xin .new-things .p-cont{
+	width:246px;
+	height:22px ;
+	margin: 2px 17px 0px 17px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+
+/*送女友礼物*/
+#contain .con-xin .girl-gift{
+	height: 1245px;
+	position: relative;
+}
+#contain .con-xin .girl-gift h3{
+	margin: 15px 0 25px 0;
+	font-size: 28px;
+	color: #000;
+}
+#contain .con-xin .girl-gift .big-img{
+	width:586px;
+	height: 369px;
+	/*margin-right: 25px;*/
+	margin-bottom: 26px;
+}
+
+#contain .con-xin .girl-gift ul li.sm{
+	width:280px;
+	height: 369px;
+	margin-left:26px ;
+	margin-bottom: 26px;
+	background: white;
+}
+#contain .con-xin .girl-gift ul li.three,
+#contain .con-xin .girl-gift ul li.seven
+{
+	margin-left: 0;
+}
+
+#contain .con-xin .girl-gift .sm-img1{
+	width:280px;
+	height: 300px;
+}
+
+#contain .con-xin .girl-gift .price-and-number{
+	padding-top:14px;
+	margin: 0 17px;
+	width:246px;
+	height: 27px;
+} 
+#contain .con-xin .girl-gift .price-and-number .price{
+	font-size: 18px;
+}
+#contain .con-xin .girl-gift .price-and-number .price em{
+	font-weight: 100;
+}
+#contain .con-xin .girl-gift .price-and-number .num{
+	margin-top: 5px;
+}
+#contain .con-xin .girl-gift .p-cont{
+	width:246px;
+	height:22px ;
+	margin: 2px 17px 0px 17px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+
+/*送男友礼物*/
+#contain .con-xin .boy-gift{
+	height: 835px;
+	position: relative;
+}
+#contain .con-xin .boy-gift h3{
+	margin: 15px 0 25px 0;
+	font-size: 28px;
+	color: #000;
+}
+#contain .con-xin .boy-gift .big-img{
+	width:586px;
+	height: 369px;
+	/*margin-right: 25px;*/
+	margin-bottom: 26px;
+}
+
+#contain .con-xin .boy-gift ul li.sm{
+	width:280px;
+	height: 369px;
+	margin-left:26px ;
+	margin-bottom: 26px;
+	background: white;
+}
+#contain .con-xin .boy-gift ul li.three
+{
+	margin-left: 0;
+}
+
+#contain .con-xin .boy-gift .sm-img1{
+	width:280px;
+	height: 300px;
+}
+
+#contain .con-xin .boy-gift .price-and-number{
+	padding-top:14px;
+	margin: 0 17px;
+	width:246px;
+	height: 27px;
+} 
+#contain .con-xin .boy-gift .price-and-number .price{
+	font-size: 18px;
+}
+#contain .con-xin .boy-gift .price-and-number .price em{
+	font-weight: 100;
+}
+#contain .con-xin .boy-gift .price-and-number .num{
+	margin-top: 5px;
+}
+#contain .con-xin .boy-gift .p-cont{
+	width:246px;
+	height:22px ;
+	margin: 2px 17px 0px 17px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+
+/*成双成对礼物*/
+#contain .con-xin .double-gift{
+	height: 835px;
+	position: relative;
+}
+#contain .con-xin .double-gift h3{
+	margin: 15px 0 25px 0;
+	font-size: 28px;
+	color: #000;
+}
+#contain .con-xin .double-gift .big-img{
+	width:586px;
+	height: 369px;
+	/*margin-right: 25px;*/
+	margin-bottom: 26px;
+}
+
+#contain .con-xin .double-gift ul li.sm{
+	width:280px;
+	height: 369px;
+	margin-left:26px ;
+	margin-bottom: 26px;
+	background: white;
+}
+#contain .con-xin .double-gift ul li.three
+{
+	margin-left: 0;
+}
+
+#contain .con-xin .double-gift .sm-img1{
+	width:280px;
+	height: 300px;
+}
+
+#contain .con-xin .double-gift .price-and-number{
+	padding-top:14px;
+	margin: 0 17px;
+	width:246px;
+	height: 27px;
+} 
+#contain .con-xin .double-gift .price-and-number .price{
+	font-size: 18px;
+}
+#contain .con-xin .double-gift .price-and-number .price em{
+	font-weight: 100;
+}
+#contain .con-xin .double-gift .price-and-number .num{
+	margin-top: 5px;
+}
+#contain .con-xin .double-gift .p-cont{
+	width:246px;
+	height:22px ;
+	margin: 2px 17px 0px 17px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+
+
+
+
+/*倒数第二部分*/
+.interesting{
+	height: 670px;
+}
+.giftClassify {
+	height: 580px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding-top: 26px;
+	margin-top: 20px;
+	/*padding-bottom: 20px;*/
+}
+
+/*左边部分*/
+.giftClassify .gift-interest {
+	height: 480px;
+	width: 400px;
+	padding-left: 50px;
+	border-right: 1px solid #ccc;
+}
+
+.giftClassify .gift-interest .gift-title {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0 0;
+	color: #000000;
+}
+
+.giftClassify .gift-interest dl {
+	padding-top: 12px;
+}
+
+.giftClassify .gift-interest dl dt h3 {
+	color: #000000;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.giftClassify .gift-interest dl dd {
+	height: 42px;
+}
+
+.giftClassify .gift-interest dl dd a {
+	white-space: nowrap;
+	padding-right: 10px;
+	line-height: 20px;
+}
+.giftClassify .gift-interest dl dd a:hover{
+	color: #FF4F57;
+}
+
+/*右边部分*/
+.giftClassify .gift-class {
+	width: 735px;
+	padding-left: 10px;
+}
+
+.giftClassify .gift-class .gift-class-title {
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0 0;
+	color: #000000;
+}
+
+.giftClassify .gift-class .gift-class-con {
+	width: 700px;
+	margin-left: 15px;
+}
+
+.giftClassify .gift-class .gift-class-con dl {
+	width: 300px;
+	height: 85px;
+	padding: 12px 0;
+}
+
+.giftClassify .gift-class .gift-class-con dl dt h3 {
+	line-height: 25px;
+	font-weight: bold;
+	color: #000;
+}
+
+.giftClassify .gift-class .gift-class-con dl dd a {
+	color: #999;
+	line-height: 20px;
+	white-space: nowrap;
+	padding-right: 10px;
+}
+.giftClassify .gift-class .gift-class-con dl dd a:hover{
+	color: #FF4F57;
+}
+

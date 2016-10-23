@@ -1,0 +1,54 @@
+#header{
+	width:100%;
+	height: 34px;
+	border-bottom: 1px solid #999999;
+}
+#header .header-xin{
+	height: 34px;
+}
+#header .header-xin .menu-list{
+	width:1000px;
+	height: 34px;
+	margin-left:150px ;
+	/*background: deeppink;*/
+}
+#header .header-xin .menu-list li{
+	line-height: 34px;
+	color: #EB744F;
+
+}
+#header .header-xin .menu-list li a{
+	position: relative;
+	text-align: center;
+	padding: 0 25px;
+	margin: 0 8px;
+	font-size: 15px;
+	/*font-weight: bold;*/
+	color: #000;
+	height:34px ;
+
+}
+#header .header-xin .menu-list li .navHot{
+	position: absolute;
+	right: 0;
+	top:-6px;
+	width:13px;
+	height: 13px;
+}
+#header .header-xin .menu-list li a:hover{
+	/*text-decoration: underline;*/
+	color: #FF4F57;
+}
+/*礼物攻略*/
+.gift-strategy{
+	width:130px;
+	padding-left: 60px;
+	height: 35px;
+	background: url(../../img/home/gift-strategy.jpg) no-repeat 5px;
+}
+.first-page{
+	
+	background: url(../../img/home/top-arrow.jpg) no-repeat 0 10px;
+}
+
+

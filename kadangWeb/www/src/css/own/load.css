@@ -1,0 +1,162 @@
+.load{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	right: 0;
+	display: none;
+	z-index: 4;
+}
+.load-bg{
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+}
+.load-cont{
+	width:80%;
+	height:90%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 6;
+	background: #fff;
+}
+.load-missing{
+	display: block;
+}
+.load-cont-center{
+	margin-top: 73px;
+	margin-left:170px ;
+	width:630px;
+	height:300px ;
+}
+.undefined-load{
+	width:199px;
+	height: 289px;
+	border-right:1px solid #ccc ;
+}
+.undefined-load p{
+	height: 60px;
+	line-height: 30px;
+	color: #000000;
+	font-size: 18px;
+}
+.undefined-load p span{
+	display: block;
+	color: #999999;
+	font-size: 12px;
+	line-height: 15px;
+}
+.undefined-load ul{
+	height: 70px;
+	margin-top: 10px;
+}
+.undefined-load ul li{
+	width:55px;
+	height: 70px;
+	margin-right: 10px;
+}
+.undefined-load ul li span{
+	display: block;
+	width:55px;
+	height: 45px;
+}
+
+.undefined-load ul li span p{
+	width:55px;
+	line-height: 28px;
+	color: #000;
+}
+.undefined-load ul li span.weibo{
+	background: url(../../img/home/login.png) no-repeat 0 0;
+}
+.undefined-load ul li span.QQ{
+	background: url(../../img/home/login.png) no-repeat 0 -69px;
+}
+.undefined-load ul li span.pay{
+	background: url(../../img/home/login.png) no-repeat 0 -138px;
+}
+
+
+.user-load{
+	margin-left: 30px;
+	width:374px;
+	height:300px;
+}
+.user-load form .user-load-title{
+	font-size: 17px;
+	/*line-height: 42px;*/
+	color: #333;
+}
+.user-load form .user-name{
+	margin-top: 10px;
+	height:37px ;
+	border-radius:2px ;
+	width: 278px;
+	line-height: 37px;
+	border: 1px solid #ccc;
+	padding-left: 35px;
+	background: url(../../img/home/login.png) no-repeat 10px -201px;
+}
+
+.user-load form .paw{
+	margin-top: 20px;
+	height:37px ;
+	border-radius:2px ;
+	width: 278px;
+	line-height: 37px;
+	border: 1px solid #ccc;
+	padding-left: 35px;
+	background: url(../../img/home/login.png) no-repeat 10px -238px;
+}
+
+.user-load form .odd-number{
+	margin-top:20px;
+	display: inline-block;
+}
+.user-load form .next-load{
+	width:78px;
+	height: 14px;
+	display: inline-block;
+	padding-left: 5px;
+	cursor: pointer;
+}
+.submit{
+	margin-top: 10px;
+	width:313px;
+	height: 43px;
+	border: 1px solid #F6614B;
+	padding: 0 20;
+	background: #F6614B;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 18px;
+	border-radius:2px ;
+	cursor: pointer;
+}
+.user-load form .judge{
+	color: #262626;
+	margin-top: 10px;
+	width:;
+	height: 21px;
+	font-size:14px ;
+}
+.user-load form .judge a:hover{
+	text-decoration: underline;
+}
+.user-load form .judge .forget-pwd{
+	padding-right: 55px;
+}
+
+
+
+
+
+
+
+
