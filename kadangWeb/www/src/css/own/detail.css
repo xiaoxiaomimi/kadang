@@ -52,3 +52,235 @@
 }
 
 
+#confirst{
+	width:100% ;
+	height: 58px;
+}
+#confirst .confirst-xin{
+	padding-top: 10px;
+	height: 48px;
+	/*background: pink;*/
+	border-bottom: 1px solid #ccc;
+}
+li.little-home-page{
+	width:45px;
+	height: 48px;
+}
+.little-home-page a{
+	width: 28px;
+	line-height: 48px;
+	padding-right: 20px;
+}
+.little-home-page a span{
+	text-align: center;
+	line-height: 48px;
+}
+li.all-classify{
+	width:80px;
+	height: 48px;
+}
+.all-classify a{
+	width: 55px;
+	line-height: 48px;
+	text-align: center;
+	padding-right: 21px;
+}
+.all-classify a span{
+	text-align: center;
+	line-height: 48px;
+}
+li.commemoration{
+	width: 151px;
+	height:48px ;
+}
+li.commemoration a{
+	
+}
+li.commemoration a p{
+	width: 125px;
+	height:26px ;
+	/*padding-right: 30px;*/
+	border: 1px dashed #DD5A22;
+	margin-top:14px ;
+}
+.commemoration-font{
+	width: 98px;
+	height:24px ;
+	line-height: 24px;
+	text-align: center;
+}
+li.commemoration a p span{
+	width:20px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: url(../../img/home/exit-shouye.jpg) no-repeat right center;
+}
+li.commemoration .rigthtward{
+	width: 24px;
+	height: 48px;
+	margin-top: 2px;
+	text-align: center;
+	line-height: 48px;
+}
+li.search{
+	margin-top: 16px;
+	width:152px ;
+	height: 22px;
+	border: 1px solid #ccc;
+}
+li.search .inputtext{
+	width: 120px;
+	height: 21px;
+	padding-left: 4px;
+	line-height: 21px;
+	border: 0;
+	/*background: transparent;*/
+	outline: none;
+	
+}
+li.search .search-btn-grey{
+	width: 28px;
+	height:22px ;
+	/*padding-left: 20px;*/
+	border: 0;
+	background: url(../../img/home/search-btn-grey.jpg) no-repeat center center;
+	border: 0;
+	/*background: transparent;*/
+	outline: none;
+	cursor: pointer;
+}
+li.all-sum{
+	width:84px;
+	height:48px ;
+	line-height: 48px;
+	/*padding-right: 42px;*/
+}
+li.all-sum span{
+	width:30px ;
+	height: 48px;
+	line-height: 48px;
+	background: url(../../img/home/arrow-up.jpg) no-repeat center center;
+}
+
+#con{
+	width:100%;
+	height: 1660px;
+}
+#con .con-xin{
+	height: 1660px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+#con .con-xin .detail-list{
+	height: 239px;
+	border-bottom: 1px solid #ccc;
+}
+.detail-list .sort{
+	padding: 20px;
+	height:40px ;
+	width:1160px;
+	border-bottom: 1px dotted #ccc;
+}
+.detail-list h3{
+	width: 85px;
+	height: 40px;
+	padding-left: 25px;
+}
+.detail-list .detail-sort{
+	width:1050px;
+	height:40px;
+}
+.detail-sort .detail-sort-li{
+	width:115px ;
+	height: 14px;
+
+}
+.detail-sort-li input{
+	width:14px;
+	height: 14px;
+	margin-right: 5px;
+	/*background: #fff;*/
+}
+.detail-sort-li span{
+	font-size: ;
+}
+.xia{
+	margin-top:16px;
+}
+
+
+.detail-list .gift-people{
+	padding: 20px;
+	height:40px ;
+	width:1160px;
+	border-bottom: 1px dashed #ccc;
+}
+.detail-list .gift-place{
+	padding: 20px;
+	height:40px ;
+	width:1160px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.con-xin .cut-img{
+	width:100%;
+	height:110px;
+	border-bottom: 1px solid #ccc;
+	/*background: url(../../img/home/detail-center-bg.jpg) repeat-x center center;*/
+}
+.con-xin .cut-img img{
+	width: 100%;
+	height:90;
+	/*margin-top: ;*/
+}
+
+.add-json{
+	height: 1309px;
+	border-bottom: 1px solid #ccc;
+}
+.con-xin dl{
+	margin-left: 85px;
+	margin-top: 26px;
+	width:280px;
+	height:415px ;
+	box-shadow: 3px;
+	border: 1px solid #ccc;
+}
+.con-xin dl dt img{
+	width: 280px;
+	height: 280px;
+}
+.con-xin dl .font-grey{
+	width:261px;
+	padding: 0px 10px;
+	height: 46px;
+	line-height: 46px;
+}
+.con-xin dl .font-red{
+	height: 57px;
+	width: 261px;
+	padding: 0px 10px;
+	line-height: 57px;
+	font-size:9px ;
+	color: #DD5A22;
+}
+.con-xin dl .font-red span{
+	color: #888888;
+	font-size: 11px;
+	/*margin-right: 25px;*/
+}
+
+#bottom-before{
+	width:100%;
+	height:798px ;
+	margin-bottom: 50px;
+}
+.bottom-before-img{
+	/*width: 100%;*/
+	border-top:1px solid #ccc ;
+	height:798px;
+}
+.bottom-before-img img{
+	width: 100%;
+	/*margin-left: 100px;*/
+}

@@ -78,6 +78,6 @@ $(function() {
 //		$.cookie("userReg",JSON.stringify(userArr),{path:'/',expires:365});
 		
 //		alert("")
-	}
+//	}
 
 })

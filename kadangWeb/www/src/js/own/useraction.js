@@ -59,7 +59,7 @@ $(function() {
 
 			var userArr = $.cookie("userReg") ? JSON.parse($.cookie("userReg")) : [];//用parse()方法转成JSON对象的数组
 
-			var userObj = { //将输入的值存一个新定义json对象对象中
+			var userObj = { //新定义json对象存储我们输入的邮箱和密码
 				"username": emailStr,
 				"password": pasStr
 			}

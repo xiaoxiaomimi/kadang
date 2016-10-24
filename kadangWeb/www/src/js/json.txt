@@ -1,0 +1,25 @@
+
+
+	
+
+
+
+	
+	
+
+
+	[
+		{
+			"type":"cloth",
+			"name":"衣服",
+			"items":[
+				{
+					"src":"../img/home/json1.jpg_mid.jpg",
+				},{
+					"src":"../img/home/JSON2.jpg_mid.jpg"
+				},{
+					"src":"../img/home/JSON3.jpg_mid.jpg"
+				}
+			]
+		}
+	]

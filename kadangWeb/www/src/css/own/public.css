@@ -165,6 +165,7 @@ a:hover{
 	height:36px ;
 	background: url(../../img/home/search_newyear.png) no-repeat;
 	overflow: hidden;
+	border: 0;
 }
 .search-btn{
 	cursor: pointer;
@@ -179,7 +180,8 @@ a:hover{
 }
 
 #top .top-xin .down .top-mid .search .textinput{
-	padding-left: 30px;
+	margin-left:5px;
+	padding-left: 25px;
 	height: 30px;
 	line-height: 30px;
 	border: 0;
