@@ -49,4 +49,58 @@ $(function() {
 		$(this).children("div").children('ul').hide();
 	})
 	
+	
+	window.onscroll = function(){
+		var t = $(window).scrollTop();
+		if(t>=185){
+			$('.box5').show();
+		}else{
+			$('.box5').hide();
+		}
+	}
+
+	
+	$('.box5').bind('click',function(){
+//		$(window).scrollTop()=0;
+//		alert($(window).scrollTop());
+//		$(window).scrollTop()=0;
+		$('body,html').animate({
+			scrollTop:0
+		})
+	})
+	
+	
+	
+	
+//	导航div的固定
+	var $fixedBox = $(".fixedBox").offset().top;
+	$(window).scroll(function(){
+		if($(window).scrollTop() >= $fixedBox){
+			$('.fixedBox').attr("style","position: fixed;top:-45px;left:32px;z-index: 10;")
+		}else{
+			$('.fixedBox').removeAttr('style');
+		}
+	}).trigger('scroll');
+	
+			
+			
+			
+			//json传"爆款推荐"区的图片和文字
+			$.getJSON("js/json.txt",function(date){
+//				console.log(date[0].hotrecomment[0].src);
+				var num = date[0];
+				var num1 = num.hotrecomment;
+				
+				$.each(num1,function(i,value){
+					$('#stylish .com'+ (i+1) +' .big').attr('src',num1[i].src)
+					$('#stylish .com'+ (i+1) +' p').html(num1[i].txt)
+				})
+			})
 })
+
+
+
+
+
+
+

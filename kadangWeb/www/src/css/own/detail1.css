@@ -13,17 +13,56 @@
 }
 .contain-xin .left .big-img{
 	width: 448px;
+	position: relative;
 }
-.contain-xin .left .big-img .first-tu{
-	padding: 26px 18px 20px 30px;
+.contain-xin .big-img .smallCursor{
+	/*width: 100px;
+	height: 100px;*/
+	position: absolute;
+	left: 30px; 
+	top: 26px; 
+	display:none; 
+	width: 120px; 
+	height: 120px; 
+	background: rgba(200,198,255,0.8);
+	cursor:  crosshair;
+}
+
+.contain-xin .left .big-img .bigCursor{
+	position: absolute; 
+	height:400px; 
+	width:400px; 
+	left: 457px; 
+	top: 26px; 
+	background: rgba(200,198,255,0.1); 
+	overflow: hidden; 
+	display:none;
+}
+
+.contain-xin .left .big-img .bigCursor .bigImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*overflow: hidden;*/
+}
+.contain-xin .left .big-img .wai-box{
+	margin: 26px 18px 20px 30px;
 	width:400px;
 	height:400px ;
+}
+		
+.contain-xin .left .big-img .wai-box img{
+	/*padding: 26px 18px 20px 30px;*/
+	width:400px;
+	height:400px ;
+	
 }
 .contain-xin .left .big-img ul{
 	padding-left: 30px;
 }
 
 .contain-xin .left .big-img ul li{
+	cursor: pointer;
 	width: 60px;
 	height: 60px;
 	margin-right: 24px;
@@ -46,6 +85,7 @@
 }
 .contain-xin .left .img-price .description{
 	position: relative;
+	    z-index: -1;
 	margin-top: 20px;
 	width: 506px;
 	height: 42px;

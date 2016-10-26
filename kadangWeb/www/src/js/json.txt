@@ -1,25 +1,68 @@
 
 
 	
-
-
-
-	
-	
-
-
-	[
+[
 		{
 			"type":"cloth",
 			"name":"衣服",
 			"items":[
-				{
-					"src":"../img/home/json1.jpg_mid.jpg",
-				},{
-					"src":"../img/home/JSON2.jpg_mid.jpg"
-				},{
-					"src":"../img/home/JSON3.jpg_mid.jpg"
-				}
-			]
+						{
+							"src":"../img/home/json1.jpg_mid.jpg",
+							"txt":"神奇魔方 照片定制立方体水晶 炫彩音乐旋转摆件"
+						}
+					],
+			"hotrecomment":[
+								{
+									"src" : "img/home/stylist-cont2.jpg",
+									"txt" : "用她的名字定制 全世界仅此一条"
+								},{
+									"src" : "img/home/stylist-con4.jpg",
+									"txt" : "送实用钱包 用的时候就能想到你"
+								},{
+									"src" : "img/home/stylist-con5.jpg",
+									"txt" : "最美的你爱上最美的它"
+								},{
+									"src" : "img/home/stylist-con7.jpg",
+									"txt" : "梦幻般的rose"
+								},{
+									"src" : "img/home/stylist-con8.jpg",
+									"txt" : "送她爱的手镯"
+								},{
+									"src" : "img/home/stylist-con1.jpg_mid.jpg",
+									"txt" : "最美的你爱上最美的它"
+								},{
+									"src" : "img/home/gift-sm4.jpg_mid.jpg",
+									"txt" : "最美的你爱上最美的它"
+								},{
+									"src" : "img/home/stylist-cont3.jpg_mid.jpg",
+									"txt" : "最美的你爱上最美的它"
+								},{
+									"src" : "img/home/stylist-con1.jpg_mid.jpg",
+									"txt" : "最美的你爱上最美的它"
+								}
+							],
+			"shopcar":[
+						{
+							
+						}
+					
+					   ]
+					
 		}
-	]
+		
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

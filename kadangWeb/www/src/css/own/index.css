@@ -438,7 +438,17 @@ ul.all-gifts-cont li.giftnine:hover {
 	margin-right: 2px;
 	font-weight: bold;
 	font-size: 15px;
+	cursor: pointer;
 }
+.fixed-container li.cont1{
+	/*color: #fff !important;*/
+	background:pink;
+}
+
+#contain  .fixedBox .fixedDiv .fixed-container li:hover{
+	background: pink;
+}
+
 #contain .con-xin {
 	padding-top: 20px;
 	height: px;
@@ -837,5 +847,80 @@ ul.all-gifts-cont li.giftnine:hover {
 }
 .giftClassify .gift-class .gift-class-con dl dd a:hover{
 	color: #FF4F57;
+}
+
+
+.right-small-box{
+	width:40px;
+	height: 281px;
+	position: fixed;
+	right: 10px;
+	bottom:10px;
+	z-index: 1001;
+}
+
+.box1{
+	width: 38px;
+	height: 67px;
+	margin-bottom: 2px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	background: #eee;
+	cursor: pointer;
+}
+.box1 i{
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin: 0 auto;
+	background: url(../../img/home/wenwo.png) no-repeat 0px 0px;
+}
+.box1 p{
+	text-align: center;
+	color: #000000;
+}
+.box2{
+	width:38px;
+	height: 38px;
+	border:1px solid #ccc;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 15px;
+	background: #eee;
+	cursor: pointer;
+}
+.box2 p{
+	margin-top:5px;
+	color: #000000;
+}
+.box3{
+	width:38px;
+	height: 38px;
+	border:1px solid #ccc;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 15px;
+	background: #eee;
+	cursor: pointer;
+}
+.box3 p{
+	margin-top:5px;
+	color: #000000;
+}
+.box4{
+	width:38px;
+	height:38px ;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	background: url(../../img/home/wxicon.png) no-repeat center center #eee;
+	cursor: pointer;
+}
+.box5{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background: url(../../img/home/online.png) no-repeat 0px 0px #eee;
+	display: none;
 }
 

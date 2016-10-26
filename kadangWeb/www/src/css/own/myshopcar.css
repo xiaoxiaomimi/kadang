@@ -48,22 +48,18 @@ a:hover{
 	height:80px ;
 	background: url(../../img/home/cartStep.png) no-repeat;
 }
-.p-cont{
-	/*margin: 0 auto;*/
-	/*width:1000px ;*/
-	height:27px ;
+/*.p-cont{
 
-	/*display: block;*/
-	padding-bottom: 20px;
-	
-	clear: both;
-}
+}*/
 .p-cont .f{
 	font-size: 18px;
 	line-height: 27px;
 	color:#000000 ;
+	padding-bottom: 22px;
+	
 }
 .guess-like{
+	margin-top: 116px;
 	width: 990px;
 	height: 295px;
 }
@@ -90,4 +86,184 @@ a:hover{
 	border: 1px solid #ccc;
 	padding-top: 19px;
 	padding-left: 13px;
+}
+.footer{
+	border-top:1px solid #ccc;
+	width: 1200px;
+	/*background: palegreen;*/
+	height: 58px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.footer p{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	line-height: 12px;
+}
+.null-shoppng{
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	width:1000px;
+	height:178px ;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+
+}
+/*.empty-car-des{
+	position: absolute;
+	width:598px;
+	height: 48px;
+	line-height: 24px;
+	color: #999999;
+	font-size: 12px;
+	right: 0;
+	top:74px;
+}*/
+.title{
+	height: 34px;
+	border-bottom: 1px solid #dedede;
+}
+.title li{
+	line-height: 34px;
+	height: 34px;
+
+}
+.good-mess{
+	width:380px;
+	padding-left: 14px;
+}
+.price{
+	width:149px;
+}
+.number{
+	width:112px;
+}
+.sum{
+	width:193px;
+}
+.contain{
+	height: 144px;
+}
+.contain dl dt{
+	width:158px;
+}
+.contain dl dt img{
+	width:60px;
+	height: 60px;
+	margin-left:45px ;
+	margin-top: 35px;
+}
+.contain dl dd .p1{
+	width:206px;
+	display: block;
+	padding-top: 16px;
+	height: 52px;
+	line-height: 20px;
+	color: #000;
+}
+.contain dl dd span{
+	display: block;
+	color: #999999;
+	width:200px;
+	height: 26px;
+	line-height: 18px;
+	font-size:10px;
+	margin-top: 10px;
+}
+.contain dl dd .p2{
+	font-size: 10px;
+	color: #000000;
+	display: block;
+}
+.unit_price{
+	width:154px;
+	height: 144px;
+	text-align: center;
+	line-height: 144px;
+}
+
+.sel-count{
+	width:100px;
+	margin-top:56px;
+}
+
+.vm{
+	width:99px;
+	height: 29px;
+}
+.vm .jian{
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ccc;
+	line-height: 26px;
+	text-align: center;
+	background:#f0f0f0;
+	cursor: pointer;
+}
+.vm .jian-num-txt{
+	width: 40px;
+	height: 26px;
+	border: 1px solid #ccc;
+	text-align: center;
+	
+}
+.vm .jia{
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ccc;
+	line-height: 26px;
+	text-align: center;
+	background:#f0f0f0;
+	cursor: pointer;
+}
+.sum_price{
+	width:154px;
+	height: 144px;
+	text-align: center;
+	line-height: 144px;
+	color: orangered;
+}
+
+.delete{
+	margin-left: 20px;
+	width:154px;
+	height: 144px;
+	text-align: center;
+	line-height: 144px;
+}
+.delete:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.clearing{
+	width: 370px;
+	height: 110px;
+	float:right; 
+	margin-right: 140px;
+}
+.clearing .p3{
+	line-height: 60px;
+	text-align: left;
+	color: #000000;
+}
+.clearing .p4{
+	line-height: 60px;
+	text-align: left;
+	color: orangered;
+}
+.add-shop-car{
+	margin-top: 60px;
+	width:154px;
+	margin-left: 224px;
+	height:47px ;
+	line-height: 47px;
+	text-align: center;
+	color: white;
+	background: #e84847;
+	border: 1px solid #e84847;	
+	border-radius:3px ;
+	cursor: pointer;
 }

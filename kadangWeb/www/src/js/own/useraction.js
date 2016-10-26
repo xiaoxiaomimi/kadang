@@ -69,9 +69,36 @@ $(function() {
 			$.cookie("userReg", JSON.stringify(userArr), {path: '/',expires: 365});
 			//创建cookie(名字，cookie的值存储的是string，所以要转，{路径，有效日期})
 
-			alert("注册成功！");
+			$(".register").hide();
+			$(".load").show(800);
+			
 		}
 
 	})
+	
+	$(".user-load input.submit").bind("click", function() {
+		var name = $(".user-load input.user-name").val();
+		var pass = $(".user-load input.paw").val();
+		
+		if($.cookie("userReg")) {
+			if(CheckLogin(name, pass)) {
+				$.cookie("currentLogin", name, { path: '/' });
+				window.location.href = "html/loadAfterpublic.html";
+			}else {
+				
+			}
+		}
+	})
+	
+	function CheckLogin(name, pass) {
+		var flag = false;
+		$.each($.parseJSON($.cookie("userReg")), function(i, n) {
+			if(name == n.username && pass == n.password) {
+				flag = true;
+			}
+		});
+		return flag;
+		
+	}
 
 })
